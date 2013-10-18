@@ -16,10 +16,18 @@ module.exports = function(grunt) {
             }
         },
 
-        // Cleaning
+        // Clean
         clean: {
             pre: ['styleguide', 'assets/css'],
             post: ['.sass-cache']
+        },
+
+        // Watch
+        watch: {
+            sass: {
+                files: ['assets/sass/**/*.scss'],
+                tasks: ['compass', 'sassdown']
+            }
         },
 
         // Sassdown (Styleguide)
@@ -42,6 +50,7 @@ module.exports = function(grunt) {
     // Load NPM Tasks
     grunt.loadNpmTasks('sassdown');
     grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-compass');
 
     // Register Grunt tasks
