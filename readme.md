@@ -1,10 +1,12 @@
 # Grunt Boilerplate + Sassdown
 
-> Grunt project boilerplate with `sassdown`, `grunt-clean` and `grunt-compass` included and ready to go.
+> Grunt project boilerplate with sassdown, grunt-clean, grunt-compass and grunt-watch included and ready to go.
 
 Default task runs both `grunt clean` and `grunt compass`, compiling any SASS in compressed mode and cleaning up cache folders after itself, before running `grunt sassdown` to build a styleguide from your SASS comments.
 
-Type `npm install` in the root directory. Then type `grunt` to get started.
+There is a `grunt watch` task which will run both `grunt compass` and `grunt sassdown` when any SASS files are modified.
+
+Type `npm install` in the root directory. Then type `grunt` to get started. Or `grunt --verbose` if you're feeling frisky.
 
 ## What is Sassdown?
 
