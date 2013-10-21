@@ -10,7 +10,7 @@ Type `npm install` in the root directory. Then type `grunt` to get started. Or `
 
 ## What is Sassdown?
 
-[Sassdown](https://bitbucket.org/jesperhills/sassdown) is a Grunt plugin that automatically generates a living styleguide from your SASS directory. It uses Markdown and Handlebars.
+[Sassdown](https://github.com/nopr/sassdown) is a Grunt plugin that automatically generates a living styleguide from your SASS directory. It uses Markdown and Handlebars.
 
 ## Where are the styleguide assets?
 
