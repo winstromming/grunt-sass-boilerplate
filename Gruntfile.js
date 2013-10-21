@@ -33,8 +33,8 @@ module.exports = function(grunt) {
         // Sassdown (Styleguide)
         sassdown: {
             options: {
-                template_assets: 'src/styleguide/assets',
-                template_html: 'src/styleguide/template.hbs',
+                //template_assets: 'path/to/folder',
+                //template_html: 'path/to/file.hbs',
                 css_output: 'assets/css/screen.css'
             },
             files: {
