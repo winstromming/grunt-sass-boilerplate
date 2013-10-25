@@ -4,7 +4,7 @@
   "main": "Gruntfile.js",
   "devDependencies": {
     "grunt": "~0.4.1",
-    "sassdown": "0.0.5",
+    "sassdown": "0.0.7",
     "grunt-contrib-compass": "~0.6.0",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-watch": "~0.5.3"
